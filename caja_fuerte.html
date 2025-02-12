@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Caja Fuerte de San Valentín</title>
+    <title>Lorgie <3</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -29,18 +29,19 @@
     <div id="seccion-galeria" class="seccion-galeria">
         <!-- Título de la galería -->
         <div class="titulo-galeria">
-            <h1>Nuestros Recuerdos  </h1>
+            <h1>Recuerdos y mas :)  </h1>
         </div>
 
-        <!-- Contenedor de las fotos -->
+       <!-- Contenedor de las fotos -->
         <div class="fotos">
             <img src="./fotos/h.gif" alt="Foto 1">
-            <img src="./img/img2.jpg" alt="Foto 2">
-            <img src="./img/img3.jpg" alt="Foto 3">
-            <img src="./img/img4.jpg" alt="Foto 4">
-            <img src="./img/img5.jpg" alt="Foto 5">
-            <img src="./img/tuyo.jpg" alt="Foto 6">
+            <img src="./fotos/00.jpg" alt="Foto 2">
+            <img src="./fotos/000.gif" alt="Foto 3">
+            <img src="./fotos/4.jpg" alt="Foto 4">
+            <img src="./fotos/5.gif" alt="Foto 5">
+            <img src="./fotos/999.jpg" alt="Foto 6">
         </div>
+
 
         <!-- Botón para ir a la carta -->
         <button class="boton-transparente boton-contador" onclick="mostrarCarta()">
@@ -63,23 +64,33 @@
         </button>
     </div>
 
-    <!-- Sección de la carta (oculta inicialmente) -->
-    <div id="seccion-carta" class="seccion-carta">
-        <!-- Título de la carta -->
-        <div class="titulo-carta">
-            <h1>Una Carta Para Ud.</h1>
-        </div>
+ <!-- Sección de la carta (oculta inicialmente) -->
+<div id="seccion-carta" class="seccion-carta">
+    <!-- Título de la carta -->
+    <div class="titulo-carta">
+        <h1>Una Carta Para Ud.</h1>
+    </div>
 
-        <!-- Contenido de la carta -->
-        <div class="contenido-carta">
-            <p>
-                Ángel mía,<br><br>
-                Este es un mensaje especial para ti. Gracias por ser parte de mi vida y por todos los momentos que hemos
-                compartido juntos. Eres muy importante para mí y quiero que sepas que siempre estaré a tu lado.<br><br>
-                Con todo mi amor,<br>
-                El que nunca te olvida!
-            </p>
-        </div>
+    <!-- Contenido de la carta -->
+    <div class="contenido-carta">
+        <p>
+            Ángel mía,<br><br>
+            Este es un mensaje especial para ti. Gracias por ser parte de mi vida y por todos los momentos que hemos
+            compartido juntos. Eres muy importante para mí y quiero que sepas que siempre estaré a tu lado.<br><br>
+            Con todo mi amor,<br>
+            El que nunca te olvida!
+        </p>
+    </div>
+
+    <!-- Reproductor de audio MP3 -->
+    <div class="reproductor-audio">
+        <p>una dedicatoria 💙</p>
+        <audio controls>
+            <source src="fotos/audio.mp3" type="audio/mpeg">
+            Tu navegador no soporta el elemento de audio :(
+        </audio>
+    </div>
+
 
         <!-- Botón para volver a la galería -->
         <button class="boton-transparente boton-contador" onclick="mostrarGaleria()">
@@ -94,6 +105,18 @@
             </svg>
             Volver a la Galería
         </button>
+        
+        
+<!-- Botón para ver el video de YouTube -->
+<button class="boton-transparente boton-contador" onclick="window.open('https://youtu.be/Pv4Q-8s6hDE?si=Rxw08ljZ1VVuRMEC', '_blank')">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#d1548f" fill="none">
+        <path d="M23 12S18.5 3 12 3 1 12 1 12s4.5 9 11 9 11-9 11-9z" 
+              stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+        <path d="M10 15l5-3-5-3v6z" 
+              stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+    </svg>
+    Ver Video en YouTube
+</button>
     </div>
 
     <script src="script.js"></script>
