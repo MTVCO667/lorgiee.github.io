@@ -65,7 +65,7 @@ canvas.height = window.innerHeight;
 let particles = [];
 
 // Lista de emojis
-const emojis = ["🌷", "🌼", "✨", "🌟", "💖", "🍀", "🦋", "🌈", "🌹", "Lorgie"];
+const emojis = ["🌷", "🌼", "✨", "🌟", "💖", "🍀", "🦋", "🌈", "🌹", "Ridiculos pasa uno 😂"];
 
 function createParticle() {
     return {
